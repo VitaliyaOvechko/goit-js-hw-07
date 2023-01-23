@@ -16,6 +16,4 @@ function createGallery(gallery) {
     ).join("");
 }
 
-let gallery = new SimpleLightbox('.gallery a', {captionsData: 'alt', captionDelay: 250, captionPosition:'bottom',});
-
-// let gallery = new SimpleLightbox('.gallery a', {nav:true, captionsData: "alt", captionDelay: 250, captionPosition:'bottom', });
+let gallery = new SimpleLightbox('.gallery a', {captionsData: 'alt', captionDelay: 250, captionPosition:'bottom', scrollZoom: false,});
